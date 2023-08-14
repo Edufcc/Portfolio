@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navlist li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+@media (max-width: 750px) {
+  
+    .logo{
+        display: none;
+    }
+
+    .navlist li {
+        letter-spacing: 3px;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-left: 16px;
+        padding: 0;
+    }
+
+}
