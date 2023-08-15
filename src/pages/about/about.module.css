@@ -6,7 +6,7 @@
 }
 
 .content {
-   
+   width: 60%;
 }
 
 .title {
@@ -19,20 +19,31 @@
 
 .about {
     display: flex;
-    width: 700px;
     margin-top: 5rem;
+    gap: 2rem;
 }
 
 .picDeveloper {
     width: 250px;
-    height: 200px;
+    height: 180px;
     border-radius: 10%;
 }
 
-.subtitle {
-    margin: 0;
+.text {
+    display: flex;
+    align-items: center;
 }
 
+@media (max-width: 999px) {
+    .about {
+        display: grid;
+        width: 70%;
+        gap: 0.7rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+}
 
 @media (max-width: 750px) {
 
@@ -41,9 +52,25 @@
         margin-top: 5rem;
     }
 
+    .content {
+        width: 90%;
+     }
+
+    .about {
+        display: grid;
+        width: 70%;
+        gap: 0.7rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
     .title {
         font-size: 20px;
         font-weight: 500;
+    }
+
+    .subtitle {
+        font-size: 12px;
     }
 
 }
