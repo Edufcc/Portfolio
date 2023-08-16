@@ -2,12 +2,14 @@ import styles from "./about.module.css"
 
 import picDeveloper from "../../assets/picDeveloper.jpg"
 
+import Title from "../../components/title/title"
+
 export function About() {
     return (
         <>
             <section className={styles.container}>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>Conheça um pouco quem sou eu</h1>
+                    <Title className={styles.title}>Quem sou eu</Title>
                     <div className={styles.about}>
                         <img className={styles.picDeveloper} src={picDeveloper} alt="" />
                         <div className={styles.text}>
