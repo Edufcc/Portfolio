@@ -3,6 +3,7 @@ import './App.css'
 
 import { About } from './pages/about/about'
 import {Home} from './pages/home/home'
+import { Portfolio } from './pages/portfolio/portfolio'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <Home/>
       <About/>
+      <Portfolio/>
     </>
   )
 }

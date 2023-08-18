@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.portfolio {
+    width: 45%;
+}
+
+.content {
+    
+}
+
+.infoProject {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.picDeveloper {
+    width: 250px;
+    height: 180px;
+    border-radius: 10%;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 750px) {
+
+    .container {
+        margin-top: 7rem;
+    }
+
+    .portfolio {
+        width: auto;
+    }
+
+    .infoProject {
+        width: 85%;
+        margin: auto;
+        display: block;
+        margin-top: 3rem;
+    }
+
+    .picDeveloper {
+        display: flex;
+        margin: 0 auto;
+    }
+ 
+
+}
