@@ -7,7 +7,7 @@ import Title from "../../components/title/title"
 export function About() {
     return (
         <>
-            <section className={styles.container}>
+            <section id="about" className={styles.container}>
                 <div className={styles.content}>
                     <Title className={styles.title}>Quem sou eu</Title>
                     <div className={styles.about}>
