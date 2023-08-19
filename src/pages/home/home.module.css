@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 11rem;
+    height: 100vh;
 }
 
 .content {
     display: flex;
     gap: 3rem;
+    margin-top: 7.5rem;
 }
 
 .subtitle {
@@ -45,12 +46,14 @@ a {
     .container {
         margin: 1rem;
         margin-top: 7rem;
+        height: auto;
     }
 
     .content {
         flex-direction: column-reverse;
         align-items: center;
         gap: 0.5rem;
+        margin-top: 0.5rem;
     }
 
     .icons {
