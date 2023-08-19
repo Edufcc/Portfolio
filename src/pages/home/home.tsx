@@ -16,7 +16,7 @@ export function Home() {
         <>
             <Nav />
 
-            <section className={styles.container}>
+            <section id="home" className={styles.container}>
                 <div className={styles.content}>
                     <div>
                         <Title className={styles.title}>Desenvolvedor Front-End</Title>
